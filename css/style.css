@@ -1,0 +1,23 @@
+/**{margin:0 auto; padding:0}
+ 
+body{background:#c0c0c0;
+    font-family:verdana; font-size:10px; color:#4c4e55;
+    }*/
+#container{width:1007px; height:1369px;
+    background:url('bg.jpg') no-repeat;
+    }
+#header{height: 150px;
+    border: 1px solid #009900;
+    }
+#sidebar_kiri{float:left; width:250px; height:1000px; margin:3px 0;
+    padding:3px; border:1px solid #009900;
+    }
+#center{float:left; width: 577px; height:1000px; margin:3px; padding:3px;
+    border:1px solid #009900;
+    }
+#sidebar_kanan{float:left; width:150px; height:1000px; margin:3px 0;
+    padding: 3px; border: 1px solid #009900;
+    }
+#footer{height:201px; border:1px solid #009900;
+    clear: both;
+    }

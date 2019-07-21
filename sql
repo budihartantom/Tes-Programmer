@@ -1,0 +1,1 @@
+"SELECT employees.id, employees.nama_depan, employees.nama_belakang, employees.jenis_kelamin, manager.manager_id, manager.employeeId, manager.salary, sales.employeeId, sales.value from employees(join manager on employees.id=manager.manager_id)join sales on manager.manager_id=sales.employeeId");
